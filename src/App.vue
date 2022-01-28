@@ -1,9 +1,11 @@
 <template>
   <h1>Vue.js Components Fundamentals</h1>
-  <ButtonCounter />
-  <ButtonCounter />
-  <ButtonCounter />
-  <ButtonCounter />
+  <div class="flex flex-row gap-2">
+    <ButtonCounter />
+    <ButtonCounter />
+    <ButtonCounter />
+    <ButtonCounter />
+  </div>
 </template>
 
 <script>
@@ -22,7 +24,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }

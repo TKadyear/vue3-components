@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.btn{
+  @apply p-1 text-white font-bold border-2  rounded;
+  box-shadow: 0 2px 4px #00000080;
+  transition: 200ms;
+}
+.btn-primary{
+  @apply   text-green-900 border-green-900;
+}
+.btn-primary:hover{
+  @apply   bg-green-900 text-white border-green-900;
+}
+.btn-cta{
+  @apply bg-green-900 border-green-900 ;
+}
+.btn-cta:hover{
+  @apply text-green-900 bg-inherit border-green-900;
+}
+.btn-cancel{
+  @apply bg-red-800 border-red-800;
+}
+.btn-cancel:hover{
+  @apply text-red-800 bg-inherit border-red-800;
+}
