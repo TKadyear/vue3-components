@@ -1,5 +1,4 @@
 <template>
-  <h1>Vue.js Components Fundamentals</h1>
   <PlansCoffee></PlansCoffee>
 </template>
 
