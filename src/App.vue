@@ -1,20 +1,15 @@
 <template>
   <h1>Vue.js Components Fundamentals</h1>
-  <div class="flex flex-row gap-2">
-    <ButtonCounter />
-    <ButtonCounter />
-    <ButtonCounter />
-    <ButtonCounter />
-  </div>
+  <PlansCoffee></PlansCoffee>
 </template>
 
 <script>
-import ButtonCounter from './components/ButtonCounter.vue'
+import PlansCoffee from './components/PlansCoffee.vue'
 
 export default {
   name: 'App',
   components: {
-    ButtonCounter
+    PlansCoffee
   }
 }
 </script>
