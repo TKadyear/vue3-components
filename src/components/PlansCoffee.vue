@@ -1,5 +1,5 @@
 <template>
-  <div class="content flex flex-col justify-center w-2/4 m-auto gap-3">
+  <div class="content flex flex-col justify-center w-2/4 m-auto">
     <h1>Coffee Plans</h1>
     <h2>We travel the world to surce the very best single origin coffee for you</h2>
     <PlanPicker></PlanPicker>

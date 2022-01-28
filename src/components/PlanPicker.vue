@@ -1,6 +1,5 @@
 <template>
-  <div class="flex flex-col gap-3">
-    <h3>Otro Componente</h3>
+  <div class="flex flex-col gap-3 w-1/2">
     <DescriptionPlans v-for="plan in plans" :key="plan" :name="plan"></DescriptionPlans>
   </div>
 </template>

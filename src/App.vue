@@ -21,4 +21,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+body {
+  background: url(./assets/coffee.jpg) #ccdcdc no-repeat;
+  background-position: top;
+  background-size: 50vw;
+}
 </style>
