@@ -2,7 +2,7 @@
   <div class="content flex flex-col justify-center w-2/4 m-auto gap-3">
     <h1>Coffee Plans</h1>
     <h2>We travel the world to surce the very best single origin coffee for you</h2>
-    <ButtonPlans v-for="plan in props" :key="plan" :name="plan"></ButtonPlans>
+    <ButtonPlans v-for="plan in plans" :key="plan" :name="plan"></ButtonPlans>
   </div>
 </template>
 <script>
@@ -14,11 +14,13 @@ export default {
   },
   data() {
     return {
-      otherPlans: ['The Single', 'The Curious', 'The Addict']
+      plans: ['The Single', 'The Curious', 'The Addict', true]
 
     }
   },
-  props: ['name', 'test']
+  props: {
+    name: { type: String, required: true },
+  }
 }
 </script>
 <style scoped>
